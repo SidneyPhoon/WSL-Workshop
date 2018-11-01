@@ -83,7 +83,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 
-### Lab 5: SPSS Modeler in DSX
+### Lab 5: SPSS Modeler in WSL
 1. Navigate to **SPSS Modeler Flows** and open the **Predict_Customer_Churn** Modeler Stream.
 2. Review the Modeler steam and the palette of nodes
 3. Add a **C5** modeling node to the canvas and connect it to the Partition node.  Build a C5 model.
@@ -98,7 +98,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 3.  **Derive** 3 new fields, the differences between International, Local and LongDistace, and their respective means.
 4.  Build a **C5** model to predict **Churn** with these 3 additional derived fields.
 
-Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Workshop_V12/blob/master/modeler/Predict_Customer_Churn_Solution.str?raw=true).
+Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/WSL-Workshop-V121/blob/master/modeler/Predict_Customer_Churn_Solution.str?raw=true).
 
 
 ### Lab 6: Deployment
