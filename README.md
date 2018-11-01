@@ -11,10 +11,10 @@ This repository contains several lab subfolders. Some labs include notebooks and
 1. Knowledge of analytics. These labs do not teach you the basics of analytics or how to implement analytics in R, Python and SPSS. The purpose of this workshop is to provide hands-on experience with analytics tools and deployment functions in WSL. 
 2. To run this workshop you need an instance of WSL V1.2.1.
 3. The supported browsers are Chrome or Firefox.
-3. Download the [DSX_Local_V121_Workshop.zip](https://ibm.box.com/s/ohf7ao9of77ryisg7zlqt094o2r3guwm).
+3. Download the [WSL_V121_Workshop.zip](https://ibm.box.com/s/4wxzxwie56b3szk6g7m6wz0yyu5j643g.
 
 ### Setting up lab projects in WSL
-1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a **unique name**.  For example, add your initials.    *Note: Project names in WSL cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
+1. Rename the downloaded **WSL_V121_Workshop.zip** file and give it a **unique name**.  For example, add your initials.    *Note: Project names in WSL cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
 2. Log in to Watson Studio Local.
 3. Select "New Project" and select "From File".
 4. Browse to the .zip file and click **Create**.
