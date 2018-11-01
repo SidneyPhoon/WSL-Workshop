@@ -82,7 +82,26 @@ This repository contains several lab subfolders. Some labs include notebooks and
 8. Navigate the to the **RStudio** section and click **Open RStudio**
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
-### Lab 5: Deployment
+
+### Lab 5: SPSS Modeler in DSX
+1. Navigate to **SPSS Modeler Flows** and open the **Predict_Customer_Churn** Modeler Stream.
+2. Review the Modeler steam and the palette of nodes
+3. Add a **C5** modeling node to the canvas and connect it to the Partition node.  Build a C5 model.
+4. Click **View Model** in the C5 model.
+4. Connect an **Evaluation** node to the C5 model and run it to evaluate its performance.
+5. Connect an **Analysis node** to the C5 model and run it
+6. Connect the two models and evaluate the two models side-by-side in the **Evaluation** node.
+
+**Optional Exercise:**
+1.  Add an **Aggregate** node to the canvas and connect it to the **Type** node.  Open the Aggregate node, in settings, calculate the **mean** of International, Local and LongDistace by **Gender** and **Status**
+2.  Add a **Merge** node and connect it to the **Aggregate** node, merge the means of each group to the orignal data set.
+3.  **Derive** 3 new fields, the differences between International, Local and LongDistace, and their respective means.
+4.  Build a **C5** model to predict **Churn** with these 3 additional derived fields.
+
+Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Workshop_V12/blob/master/modeler/Predict_Customer_Churn_Solution.str?raw=true).
+
+
+### Lab 6: Deployment
 1. The objective of this lab is to deploy the assets you created in Labs 1 through 4.  You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Data scientists have to commit changes to the project. You can commit assets by clicking on the 
 Git action icon in the top right corner.  Select **Commit**, then **Push**. Specify the commit message about the changes you are committing, e.g. "deploy generated scripts".<br/>
