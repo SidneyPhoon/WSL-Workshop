@@ -1,21 +1,21 @@
-# DSX Local Workshop V1.2.1
-In this workshop you will learn how to develop and deploy applications in DSX Local. The workshop has been divided into several stand-alone parts for those who are interested in a specific development tool or deployment task.
+# Watson Studio Local Workshop V1.2.1
+In this workshop you will learn how to develop and deploy applications in Watson Studio Local(WSL). The workshop has been divided into several stand-alone parts for those who are interested in a specific development tool or deployment task.
 
-This lab is meant to be instructor-led.  That is, the instructor will explain the objectives of the DSX capabilities covered in each lab, and demonstrate some of those capabilities at the beginning of each lab.
+This lab is meant to be instructor-led.  That is, the instructor will explain the objectives of the WSL capabilities covered in each lab, and demonstrate some of those capabilities at the beginning of each lab.
 
 
 ## About this repository
 This repository contains several lab subfolders. Some labs include notebooks and data, while others have additional instructions that are located in the *Lab Instructions* folder. 
 
 ## Prerequisites
-1. Knowledge of analytics. These labs do not teach you the basics of analytics or how to implement analytics in R, Python and SPSS. The purpose of this workshop is to provide hands-on experience with analytics tools and deployment functions in DSX Local. 
-2. To run this workshop you need an instance of DSX Local V1.2.1.
+1. Knowledge of analytics. These labs do not teach you the basics of analytics or how to implement analytics in R, Python and SPSS. The purpose of this workshop is to provide hands-on experience with analytics tools and deployment functions in WSL. 
+2. To run this workshop you need an instance of WSL V1.2.1.
 3. The supported browsers are Chrome or Firefox.
 3. Download the [DSX_Local_V121_Workshop.zip](https://ibm.box.com/s/ohf7ao9of77ryisg7zlqt094o2r3guwm).
 
-### Setting up lab projects in DSX Local
-1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a **unique name**.  For example, add your initials.    *Note: Project names in DSX Local cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
-2. Log in to DSX Local.
+### Setting up lab projects in WSL
+1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a **unique name**.  For example, add your initials.    *Note: Project names in WSL cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
+2. Log in to Watson Studio Local.
 3. Select "New Project" and select "From File".
 4. Browse to the .zip file and click **Create**.
 ![ProjectFromFile](/img/CreateProjectFromFile.png?raw=true).
@@ -103,7 +103,7 @@ A tag is used to identify a specific version of the project. There may be many v
    - **Source project**: the project that you want to deploy (e.g. "DSX_Local_V121_Workshop_*your initial*"
    - **Tag**: tag that you specified in the earlier steps. 
 
-9. Click **Create**. This will take a few minutes because DSX is making a copy of all assets in the project.
+9. Click **Create**. This will take a few minutes because WSL is making a copy of all assets in the project.
 10. The default view shows all assets that are a part of the project. Notice that you can filter them by type if you select the drop down. <br/>
 11. Filter the assets by **Models**.
 12. Select **Telco_Churn_ML_model** and click **Web service** to define an **Online Deployment** for the model.
